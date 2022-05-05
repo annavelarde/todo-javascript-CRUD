@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+.container{
+    height: 400px;
+    width: 325px;
+    /* border: 1px solid; */
+    border-radius: 8px;
+    background-color: rgba(227, 235, 237, 0.871);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    overflow:hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 10px;
+}
+
+.title{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.date-container{
+    height: 100px;
+    width: 100%;
+    background: rgb(238, 236, 225);
+    border-bottom: 1px solid #c5c7d4;
+    position: absolute;
+}
+
+.date{
+    margin-top:6px;
+    margin-left: 15px;
+}
+
+.month{
+    margin-top:5px;
+    margin-left: 15px;
+}
+
+.number-of-task{
+    margin-top:-20px;
+    margin-left: 255px;
+}
+
+.task-list-container{
+    height: 40%;
+    width: 100%;
+    position: absolute;
+
+}
+
+.input-div{
+    /* border: 1px solid; */
+    height: 80%;
+    background-color: #ffffff;
+
+}
+
+.task-menu-container{
+    border-bottom: 1px solid #c5c7d4;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top:90px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(236, 242, 240);
+}
+
+.task-input{
+    position: absolute;
+    margin-top:350px;
+    margin-left:30px;
+    position: absolute;
+}
+
+.add-task-btn{
+    position: absolute;
+    margin-top:350px;
+    margin-left: 180px;
+
+}
