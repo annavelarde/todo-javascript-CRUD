@@ -11,10 +11,9 @@ body{
     background-color: #ffffff;
 }
 
-.container{
-    height: 400px;
+ .container{
+    height: 500px;
     width: 325px;
-    /* border: 1px solid; */
     border-radius: 8px;
     background-color: rgba(227, 235, 237, 0.871);
     position:absolute;
@@ -23,18 +22,18 @@ body{
     transform: translate(-50%,-50%);
     overflow:hidden;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 10px;
-}
+}  
 
-.title{
+/* .title{
     position:absolute;
     top:20%;
     left:50%;
     transform: translate(-50%,-50%);
 
-}
+} */
 
-.date-container{
-    height: 100px;
+/* .date-container{
+    height: 40px;
     width: 100%;
     background: rgb(238, 236, 225);
     border-bottom: 1px solid #c5c7d4;
@@ -54,24 +53,23 @@ body{
 .number-of-task{
     margin-top:-20px;
     margin-left: 255px;
-}
-
+} */
+/* 
 .task-list-container{
-    height: 40%;
+    height: 60%;
     width: 100%;
     position: absolute;
 
-}
+}*/
 
 .input-div{
-    /* border: 1px solid; */
-    height: 80%;
+    height: 60%;
     background-color: #ffffff;
-
 }
 
 .task-menu-container{
-    border-bottom: 1px solid #c5c7d4;
+    border-bottom: 1px
+     solid #c5c7d4;
     height: 40px;
     width: 100%;
     position: absolute;
@@ -93,5 +91,4 @@ body{
     position: absolute;
     margin-top:350px;
     margin-left: 180px;
-
-}
+} 

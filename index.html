@@ -14,17 +14,20 @@
         <div class="container">
             <div class="date-container">
                 <h1 class="date">Saturday</h1>
-                <h5 class="month">month</h5>
-                <h5 class="number-of-task">0 Tasks</h5>
+                <h5 class="month">Month</h5>
+                <h5 class="number-of-task">0 + Tasks</h5>
             </div>
-            <!-- Inserting here the ToDo's -->
-            <div class="task-list-container"></div>
-            <div class="task-menu-container">
+            
+            <!-- filter -->
+            <div class="tasks-menu-container"> 
                 <span id="all" class="active">All</span>
-                <span id="all">Pending</span>
+                <span id="pending">Pending</span>
                 <span id="completed" >Completed</span>
                 <button class="clear-all-btn">Clear all</button>
             </div>
+
+            <!-- Inserting here the ToDo's -->
+            <div class="task-list"></div>
             
             <div class="input-div">
                 <input type="text" class="task-input" placeholder="enter your task"/>
